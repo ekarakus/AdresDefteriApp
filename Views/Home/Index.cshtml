@@ -1,0 +1,12 @@
+﻿@model Kisiler
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>@ViewBag.msg</h1>
+<form method="post">
+<input asp-for="Ad" placeholder="ad giriniz">
+<input asp-for="SoyadAd" placeholder="soyad giriniz">
+<input asp-for="Email" placeholder="email giriniz">
+<input asp-for="Telefon" placeholder="telefon giriniz">
+<button type="submit">Kaydet</button>
+</form>
